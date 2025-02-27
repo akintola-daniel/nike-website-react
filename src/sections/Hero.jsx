@@ -15,7 +15,7 @@ const Hero = () => {
     <div className='w-full grid lg:grid-cols-2  '>
 
       <div className='text-center px-4 pb-16 lg:pb-7 pt-[100px] max-sm:pb-28'>
-        <p className='text-coral-red text-left pb-9 pl-4'>Our Summer Collections by Daniel A.</p>
+        <p className='text-coral-red text-left pb-9 pl-4'>Our Summer Collections</p>
 
         <h1 className='text-[45px] font-bold pb-7 md:text-[50px]'>
         <div>The New Arrival</div>
