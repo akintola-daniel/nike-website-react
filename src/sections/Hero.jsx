@@ -12,7 +12,7 @@ const Hero = () => {
   const [bigShoeImg, setBigShoeImg] = useState(bigShoe1);
 
   return (
-    <div className='w-full grid lg:grid-cols-2  '>
+    <div className='w-full grid lg:grid-cols-2  ' id='home' >
 
       <div className='text-center px-4 pb-16 lg:pb-7 pt-[100px] max-sm:pb-28'>
         <p className='text-coral-red text-left pb-9 pl-4'>Our Summer Collections</p>

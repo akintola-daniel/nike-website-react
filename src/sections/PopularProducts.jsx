@@ -7,7 +7,7 @@ import { FaStar } from "react-icons/fa";
 
 const PopularProducts = () => {
   return (
-    <div className='w-full py-10 lg:mb-4 px-7'>
+    <div className='w-full py-10 lg:mb-4 px-7' id='popularProducts'>
 
       <div className='max-w-[600px] mx-auto lg:mx-0 lg:ml-[15px] text-center lg:text-left'>
 
