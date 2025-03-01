@@ -7,7 +7,9 @@ const Footerlink = ({title,links}) => {
 
       <ul className='sm:mt-2'>
        {links.map((link)=>(
-        <li className='text-gray-400 leading-8 sm:leading-7 hover:text-coral-red '><a href={link.link}>{link.name}</a></li>
+        <li className='text-gray-400 leading-8 sm:leading-7 hover:text-coral-red '>
+          <a href={link.link}>{link.name}</a>
+        </li>
        ))}
       </ul>
     </div>

@@ -8,7 +8,7 @@ import {headerLogo} from "../assets/images";
 
 const Footer = () => {
   return (
-    <div className='bg-black text-white py-4 px-4' id='contactus'>
+    <div className='bg-black text-white py-4 px-4' id='about' >
 
       <div className='  mt-6  w-full mx-auto sm:mt-9 '>
 

@@ -4,11 +4,11 @@ import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6
 
 
 export const navLinks = [
-    { href: "home", label: "Home" },
-    { href: "popularProducts", label: "Popular Products" },
-    { href: "services", label: "Services" },
-    { href: "specialOffer", label: "Special Offer" },
-    { href: "contactus", label: "Contact Us" },
+    { href: "home", label: "Home", offset:-70 },
+    { href: "products", label: "Products", offset:-70 },
+    { href: "services", label: "Services", offset:-100 },
+    { href: "specialOffer", label: "Special Offer", offset:-120 },
+    { href: "about", label: "About", offset: -300 }, 
 ];
 
 export const shoes = [

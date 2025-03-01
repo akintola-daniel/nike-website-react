@@ -5,7 +5,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const SpecialOffer = () => {
   return (
-    <div className=' px-7 text-center md:flex md:items-center  max-w-[1100px] mx-auto' id='specialOffer'>
+    <div className=' px-7 text-center md:flex md:items-center  max-w-[1100px] mx-auto mt-9 mid:mt-12' id='specialOffer'>
 
       <div className='md:order-2 md:mb-20'>
 

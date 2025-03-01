@@ -4,7 +4,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const Subscribe = () => {
   return (
-    <div className='py-10 px-7 sm:py-16'>
+    <div className='py-10 px-7 sm:py-16' >
       <div className='flex flex-col items-center text-center sm:flex-row justify-center sm:justify-evenly max-w-[1029px] mx-auto '>
 
         <h2 className='font-bold text-[1.5em]  md:text-[1.8em] lg:text-[2em]'>Sign Up for <br /><span className='text-coral-red'>Updates</span> and Newsletter</h2>

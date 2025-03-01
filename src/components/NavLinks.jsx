@@ -1,17 +1,18 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 
-const NavLinks = ({href, label, toggleMenu}) => {
+const NavLinks = ({href, label, toggleMenu, offset}) => {
   return (
-    <div className='max-lg:border-b max-lg:border-gray-400 max-lg:pb-2 max-lg:px-2 cursor-pointer lg:text-gray-600'>
+    <div className='max-mid:border-b max-mid:border-gray-400 max-mid:pb-2 max-mid:px-2 cursor-pointer md:text-gray-600'>
       <Link 
         to={href} 
         onClick={toggleMenu} 
         spy={true} 
         smooth={true} 
-        offset={-70}  
+        offset={offset}  
         duration={400}  
-        className='hover:font-semibold lg:hover:text-black'
+        activeClass="active"
+        className='max-mid:hover:font-semibold md:hover:text-black'
       >
         {label}
       </Link>

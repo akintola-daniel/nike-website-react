@@ -16,6 +16,7 @@ export default {
       '4xl': ['48px', '58px'],
       '8xl': ['96px', '106px']
     },
+    
     extend: {
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
@@ -37,6 +38,7 @@ export default {
         'card': "url('assets/images/thumbnail-background.svg')",
       },
       screens: {
+         mid: "835px",
         "wide": "1440px"
       },
       maxWidth: {
